@@ -6,8 +6,7 @@
 #     brew install atrivolabs/tap/devflow
 #
 # See ./README.md for the tap setup + per-release sync steps. The `url` and
-# `sha256` below are filled in at release time from the published npm tarball
-# (they're placeholders until the first publish — see #6).
+# `sha256` below are refreshed on every release from the published npm tarball.
 class Devflow < Formula
   desc "Focus companion for developers — music, pomodoro, and session flow"
   homepage "https://devflow.fm"
